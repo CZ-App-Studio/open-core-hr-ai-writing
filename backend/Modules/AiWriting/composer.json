@@ -1,0 +1,16 @@
+{
+    "name": "open-core-hr/ai-writing",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "Modules\\AiWriting\\": "app/",
+            "Modules\\AiWriting\\Database\\Factories\\": "database/factories/",
+            "Modules\\AiWriting\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\AiWriting\\Tests\\": "tests/"
+        }
+    }
+}

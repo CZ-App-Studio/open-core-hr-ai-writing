@@ -1,0 +1,19 @@
+{
+    "name": "AiWriting",
+    "alias": "aiwriting",
+    "title": "AI writing assistant",
+    "description": "Draft, improve, shorten or translate text with AI on announcements, job postings, goals, review comments and email subjects. Nothing changes until you choose to use the result.",
+    "sku": "open-core-hr-ai-writing",
+    "version": "2.0.0",
+    "core": "^2.0",
+    "mobile": "^2.0",
+    "category": "Communication",
+    "icon": "Sparkles",
+    "keywords": ["ai", "writing", "draft", "translate", "rewrite"],
+    "priority": 0,
+    "requires": [],
+    "providers": [
+        "Modules\\AiWriting\\Providers\\AiWritingServiceProvider"
+    ],
+    "files": []
+}
